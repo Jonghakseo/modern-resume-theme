@@ -1,43 +1,43 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: Jonghakseo/modern-resume-theme
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: Jonghak Seo
+title: React + Typescript web front engineer
+email: unqocn@gmail.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+phone: +82 10-4129-7219
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
-# website_title: Web (Website title override)
+website: https://nookpi.tistory.com/
+website_title: Blog
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+#twitter_username: jekyllrb
+github_username:  jonghakseo
+#stackoverflow_username: "00000001"
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+#instagram_username: jekyll
+linkedin_username: jong-hak-seo-9142ba200
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#orcid_username: 0000-0000-0000-0000
+#googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+#additional_links:
+#- title: Link name
+#  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#  url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -50,49 +50,79 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  JS & TS / React 를 즐겨 사용하는 3년차 웹 프론트엔드 개발자입니다. 
+  
+  [쓱싹 2.0](https://sgsg.slogup.com/), [SK 렌터카 다이렉트](https://www.skdirect.co.kr/nc)의 B2C 웹 페이지를 주도적으로 제작하였으며, 
+  현재는 월 방문자 170만의 <b>외국인을 위한 한국 종합 플랫폼 [Creatrip](https://www.creatrip.com/en)</b>에서 공용 컴포넌트 및 어학당 서비스의 개발과 유지보수를 담당하고 있습니다. 
+  
+  <mark>테스트 코드</mark>의 중요성을 인지하고 있으며, Jest,RTL 등을 사용해 유저 입장의 테스트 코드를 작성합니다.
+  
+  유연한 설계와 컴포넌트의 역할 분리를 통한 코어 로직의 재사용성에 관심이 많으며, 사고가 구현에 종속되지 않기 위해 JS와 React에 대한 세부 지식을 추구합니다.  
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+        border: weak  # Value of `weak` will display a weak border below this item. # Any
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        title: Creatrip
+        link: https://www.creatrip.com/en
+        link_text: creatrip web
         quote: >
-          Short overview of the project (optional)
+          월 방문자 170만명, 7개국 유저에게 예약, 직구, 어학당 등의 다양한 서비스
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          - 어학당 도메인 담당
+          - 어학당 서비스 개발
+            - 유저가 어학당 신청 진행 내역을 관리하는 기능 구현
+            - 제출서류 업로드, 결제 등 어학당 신청 프로세스 구현
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any
+                      # other value (or no value) means no border will be displayed
+        title: SK 렌터카 Direct
+        link: https://www.skdirect.co.kr/nc
+        link_text: sk direct web
+        quote: >
+          최대 일 거래액 200억 이상의 비대면 렌터카 견적 비교 및 계약 서비스
+        description: | # this will include new lines to allow paragraphs
+          - B2C 서비스 전체 개발
+            - 차량별 견적 비교 및 결제 프로세스 구현
+            - 개인/법인/개인사업자별 계약 프로세스 구현
+          - TS, Next.js, Redux, SWR 사용
+          - 다양한 SSR 이슈 트래킹 및 해결 
+          - GT metrix에 기반한 웹 최적화(네트워크 페이로드 감소, 메인 쓰레드 태스크 감소 등)
+
   - title: Experience
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+      - layout: left
+        title: Creatrip, Inc.
+        sub_title: front engineer
+        caption: 2021. 12 ~ present
+        link: https://www.creatrip.com
         quote: >
-          Short description of the company (optional)
+          Series B(누적 투자 150억 이상), 중소벤처기업부 선정 ‘아기유니콘 기업’ (2021)
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          - 사내 커스텀 eslint-plugin 패키지 개발 (@creatrip/eslint-plugin)
+          - 타입 추론을 통한 URL 관리용 유틸인 Path 모듈 개발 
+          - 접근성을 고려한 유저 관점의 컴포넌트 유닛 테스트 코드 작성 (Jest + RTL)
+          - E2E 테스트 환경 구축 (Playwright)
+          - 공용 컴포넌트 작성 (자체 개발 Toast, Accordion, etc...)
+          - 유틸 함수 작성
+      - layout: left
+        title: Slogup, Inc.
+        sub_title: front engineer
+        caption: 2020. 09 ~ 2021. 12
+        link: https://www.slogup.com/
+        quote: >
+          자체 서비스인 쓱싹 및 SK 렌터카 다이렉트, 민팃 등 외주 서비스 개발
+        description: | # this will include new lines to allow paragraphs
+          - Typescript, Next.js, Redux, SWR 사용
+          - 다양한 SSR 이슈 트래킹 및 해결 
+          - GT metrix에 기반한 웹 최적화(네트워크 페이로드 감소, 메인 쓰레드 태스크 감소 등)
+
   - title: Education
     layout: list
     content:
