@@ -52,12 +52,12 @@ linkedin_username: jong-hak-seo-9142ba200
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  JS & TS / React 를 즐겨 사용하는 3년차 웹 프론트엔드 개발자입니다. 
+  React & TS를 즐겨 사용하는 3년차 웹 프론트엔드 개발자입니다. 
   
-  [쓱싹 2.0](https://sgsg.slogup.com/), [SK 렌터카 다이렉트](https://www.skdirect.co.kr/nc)의 B2C 웹 페이지를 주도적으로 제작하였으며, 
+  <b>[쓱싹 2.0](https://sgsg.slogup.com/)</b>, <b>[SK 렌터카 다이렉트](https://www.skdirect.co.kr/nc)</b>의 B2C 웹 페이지를 주도적으로 제작하였으며, 
   현재는 월 방문자 170만의 <b>외국인을 위한 한국 종합 플랫폼 [Creatrip](https://www.creatrip.com/en)</b>에서 공용 컴포넌트 및 어학당 서비스의 개발과 유지보수를 담당하고 있습니다. 
   
-  <mark>테스트 코드</mark>의 중요성을 인지하고 있으며, Jest,RTL 등을 사용해 유저 입장의 테스트 코드를 작성합니다.
+  <mark>테스트 코드</mark>의 중요성을 인지하고 있으며, Jest, RTL 등을 사용해 유저 입장의 테스트 코드를 작성합니다.
   
   유연한 설계와 컴포넌트의 역할 분리를 통한 코어 로직의 재사용성에 관심이 많으며, 사고가 구현에 종속되지 않기 위해 JS와 React에 대한 세부 지식을 추구합니다.  
 
@@ -66,8 +66,6 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any
-                      # other value (or no value) means no border will be displayed
         title: Creatrip
         link: https://www.creatrip.com/en
         link_text: creatrip web
@@ -79,8 +77,6 @@ content:
             - 유저가 어학당 신청 진행 내역을 관리하는 기능 구현
             - 제출서류 업로드, 결제 등 어학당 신청 프로세스 구현
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any
-                      # other value (or no value) means no border will be displayed
         title: SK 렌터카 Direct
         link: https://www.skdirect.co.kr/nc
         link_text: sk direct web
@@ -90,14 +86,20 @@ content:
           - B2C 서비스 전체 개발
             - 차량별 견적 비교 및 결제 프로세스 구현
             - 개인/법인/개인사업자별 계약 프로세스 구현
-          - TS, Next.js, Redux, SWR 사용
-          - 다양한 SSR 이슈 트래킹 및 해결 
-          - GT metrix에 기반한 웹 최적화(네트워크 페이로드 감소, 메인 쓰레드 태스크 감소 등)
+      - layout: left
+        title: 쓱싹 2.0
+        link: https://sgsg.slogup.com/
+        link_text: 쓱싹 web
+        quote: >
+          총 거래금액 200억 이상의 비대면 가전 설치 및 시공 예약 서비스
+        description: | # this will include new lines to allow paragraphs
+          - 메인 랜딩 페이지 및 카테고리별 랜딩 페이지
+          - 로그인 및 마이페이지
 
   - title: Experience
     layout: list
     content:
-      - layout: left
+      - layout: top-middle
         title: Creatrip, Inc.
         sub_title: front engineer
         caption: 2021. 12 ~ present
@@ -105,13 +107,15 @@ content:
         quote: >
           Series B(누적 투자 150억 이상), 중소벤처기업부 선정 ‘아기유니콘 기업’ (2021)
         description: | # this will include new lines to allow paragraphs
-          - 사내 커스텀 eslint-plugin 패키지 개발 (@creatrip/eslint-plugin)
-          - 타입 추론을 통한 URL 관리용 유틸인 Path 모듈 개발 
+          - 어학당 도메인 담당자로 서비스 개발 및 유지보수
+          - 공용 컴포넌트 작성 (자체 개발 Toast, Accordion, etc...)
           - 접근성을 고려한 유저 관점의 컴포넌트 유닛 테스트 코드 작성 (Jest + RTL)
           - E2E 테스트 환경 구축 (Playwright)
-          - 공용 컴포넌트 작성 (자체 개발 Toast, Accordion, etc...)
+          - 사내 커스텀 eslint-plugin 패키지 개발 (@creatrip/eslint-plugin)
+          - 타입 추론을 통한 URL 관리를 위해 Path 모듈 개발 
           - 유틸 함수 작성
-      - layout: left
+          - 어드민 개발 및 유지보수
+      - layout: top-middle
         title: Slogup, Inc.
         sub_title: front engineer
         caption: 2020. 09 ~ 2021. 12
@@ -119,27 +123,77 @@ content:
         quote: >
           자체 서비스인 쓱싹 및 SK 렌터카 다이렉트, 민팃 등 외주 서비스 개발
         description: | # this will include new lines to allow paragraphs
-          - Typescript, Next.js, Redux, SWR 사용
+          - 사내 녹취록 작성 프로그램 제작 (Electron + Google STT)
+          - 사내 notion 크롤링을 통한 메타태그 관리 스크립트 추가
+          - 프로젝트 내 Asset 관리를 위한 사내 라이브러리 개발 (@slogup/asset-manager)
           - 다양한 SSR 이슈 트래킹 및 해결 
-          - GT metrix에 기반한 웹 최적화(네트워크 페이로드 감소, 메인 쓰레드 태스크 감소 등)
+          - GT metrix에 기반한 웹 최적화 (네트워크 페이로드 감소, 메인 쓰레드 태스크 감소 등)
 
-  - title: Education
+  - title: Ability
     layout: list
     content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
+      - layout: right
+        title: 웹 애플리케이션 설계
+        sub_title: React
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+          - 역할과 책임에 근거한 컴포넌트 설계로 재사용성 극대화 지향
+          - 관심사에 따른 컴포넌트간 레이어 분리 및 의존성 주입에 대한 이해
+          - 비즈니스 로직과 UI 레이어를 분리하는 아키텍처 도입 (2022.08 ~ )
+      - layout: right
+        title: 테스트 코드
+        sub_title: Jest, react-testing-library
+        caption: 2021.12 ~ present
+        description: | # this will include new lines to allow paragraphs
+          - 테스트 코드 도입 및 작성 (2021.12 ~ )
+          - 테스트 가능한 컴포넌트 작성
+          - 테스트 환경(jsdom)에 대한 이해를 바탕으로 한 테스트 환경의 다양한 이슈 해결 경험 보유
+      - layout: right
+        title: 반응형 웹
+        sub_title: 모바일, 태블릿, 데스크탑 대응
+        caption: 2020.09 ~ present
+        description: | # this will include new lines to allow paragraphs
+          - 쓱싹 2.0 반응형 웹 대응 (2020.09 ~ 2020.01)
+          - SK 렌터카 Direct 반응형 웹 대응 (2021.01 ~ 2021.08)
+          - Creatrip 반응형 웹 대응 (2021.01 ~ )
+          - flex 및 grid css를 통해 유지보수 가능한 레이아웃 구현
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  - title: Hobby
+    layout: list
+    content:
+      - layout: left
+        title: 크롬 익스텐션 보일러 플레이트
+        sub_title: Chrome Extension Boilerplate with React + Vite + TypeScript
+        caption: 2022. 07 ~ present
+        link: https://github.com/Jonghakseo/chrome-extension-boilerplate-react-vite
+        quote: >
+          페이지 뷰 15k 이상, Star 170 이상
+        description: | 
+          - 크롬 익스텐션을 만들다가 Vite를 한 번 사용해 보고 싶어서 만든 보일러 플레이트 
+          - Awesome Vite에 등록
+          - 익스텐션을 처음 개발하는 사람들이 어렵지 않게 느끼게끔 초점을 둠
+          - React18, Typescript, Jest, RTL, Vite, Sass 등의 기술 스택 적용
+      - layout: left
+        title: Namu's Pick
+        sub_title: Share Playlist and Music Player
+        caption: 2021. 07 ~ 2021.12
+        link: https://nookpi.tistory.com/106?category=906072
+        quote: >
+          플레이리스트 공유, 음악재생 및 채팅
+        description: |
+          - 여자친구의 추천곡을 보관하고 듣기 위해 시작한 프로젝트 
+          - 유튜브 주소를 입력하면 가수, 곡명을 파싱한 후 홈 서버에 음원을 저장 
+          - 서로의 재생목록을 공유하고 음악 재생 가능
+          - 크롬 익스텐션 버전, React Native App 버전 2가지 개발
+      - layout: left
+        title: ZZaplin
+        sub_title: Web Layout visualizer like a Zeplin
+        caption: 2020. 11 ~ 2022.02
+        link: https://nookpi.tistory.com/29
+        quote: >
+          총 설치수 100. 스스로 꾸준히 사용중
+        description: | 
+          - Element간 간격을 재기 위한 익스텐션 
+          - Zeplin에서 영감을 받아 주말 10시간 동안 jQeury로 제작
 
 # Footer
 footer_show_references: true
