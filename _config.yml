@@ -161,7 +161,7 @@ content:
     layout: list
     content:
       - layout: left
-        title: 크롬 익스텐션 보일러 플레이트
+        title: 익스텐션 보일러 플레이트
         sub_title: Chrome Extension Boilerplate with React + Vite + TypeScript
         caption: 2022.07 ~ present
         link: https://github.com/Jonghakseo/chrome-extension-boilerplate-react-vite
@@ -172,7 +172,7 @@ content:
           - Awesome Vite에 등록
           - 익스텐션을 처음 개발하는 사람들이 어렵지 않게 느끼게끔 초점을 둠
           - React18, Typescript, Jest, RTL, Vite, Sass 등의 기술 스택 적용
-      - layout: right
+      - layout: left
         title: note-for.me
         sub_title: Custom MD editor
         caption: 2022. 01 ~ 2022.01
@@ -197,7 +197,7 @@ content:
           - 유튜브 주소를 입력하면 가수, 곡명을 파싱한 후 홈 서버에 음원을 저장 
           - 서로의 재생목록을 공유하고 음악 재생 가능
           - 크롬 익스텐션 버전, React Native App 버전 2가지 개발
-      - layout: right
+      - layout: left
         title: ZZaplin
         sub_title: Web Layout visualizer like a Zeplin
         caption: 2020.11 ~ 2022.02
