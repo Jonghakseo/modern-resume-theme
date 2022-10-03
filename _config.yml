@@ -102,7 +102,7 @@ content:
       - layout: top-middle
         title: Creatrip, Inc.
         sub_title: front engineer
-        caption: 2021. 12 ~ present
+        caption: 2021.12 ~ present
         link: https://www.creatrip.com
         quote: >
           Series B(누적 투자 150억 이상), 중소벤처기업부 선정 ‘아기유니콘 기업’ (2021)
@@ -118,7 +118,7 @@ content:
       - layout: top-middle
         title: Slogup, Inc.
         sub_title: front engineer
-        caption: 2020. 09 ~ 2021. 12
+        caption: 2020.09 ~ 2021.12
         link: https://www.slogup.com/
         quote: >
           자체 서비스인 쓱싹 및 SK 렌터카 다이렉트, 민팃 등 외주 서비스 개발
@@ -163,7 +163,7 @@ content:
       - layout: left
         title: 크롬 익스텐션 보일러 플레이트
         sub_title: Chrome Extension Boilerplate with React + Vite + TypeScript
-        caption: 2022. 07 ~ present
+        caption: 2022.07 ~ present
         link: https://github.com/Jonghakseo/chrome-extension-boilerplate-react-vite
         quote: >
           페이지 뷰 15k 이상, Star 170 이상
@@ -172,10 +172,23 @@ content:
           - Awesome Vite에 등록
           - 익스텐션을 처음 개발하는 사람들이 어렵지 않게 느끼게끔 초점을 둠
           - React18, Typescript, Jest, RTL, Vite, Sass 등의 기술 스택 적용
+      - layout: right
+        title: note-for.me
+        sub_title: Custom MD editor
+        caption: 2022. 01 ~ 2022.01
+        link: https://nookpi.tistory.com/130
+        quote: >
+          스스로 사용하려고 만든 MD editor
+        description: | 
+          - 잘 사용하던 Typora가 유료화 되면서 웹 기반으로 가볍게 사용하기 위해 만든 에디터
+          - 평일 퇴근 후 4일간 작업 
+          - Toast UI editor 커스텀해서 사용
+          - amplify로 배포
+          - 동시 탭 5개 지원, 로컬스토리지 동기화, 다크모드, Gist 저장, 이미지, 동영상 업로드
       - layout: left
         title: Namu's Pick
         sub_title: Share Playlist and Music Player
-        caption: 2021. 07 ~ 2021.12
+        caption: 2021.07 ~ 2021.12
         link: https://nookpi.tistory.com/106?category=906072
         quote: >
           플레이리스트 공유, 음악재생 및 채팅
@@ -184,10 +197,10 @@ content:
           - 유튜브 주소를 입력하면 가수, 곡명을 파싱한 후 홈 서버에 음원을 저장 
           - 서로의 재생목록을 공유하고 음악 재생 가능
           - 크롬 익스텐션 버전, React Native App 버전 2가지 개발
-      - layout: left
+      - layout: right
         title: ZZaplin
         sub_title: Web Layout visualizer like a Zeplin
-        caption: 2020. 11 ~ 2022.02
+        caption: 2020.11 ~ 2022.02
         link: https://nookpi.tistory.com/29
         quote: >
           총 설치수 100. 스스로 꾸준히 사용중
