@@ -89,7 +89,7 @@ content:
       - layout: left
         title: 쓱싹 2.0
         link: https://sgsg.slogup.com/
-        link_text: 쓱싹 web
+        link_text: sgsg web
         quote: >
           총 거래금액 200억 이상의 비대면 가전 설치 및 시공 예약 서비스
         description: | # this will include new lines to allow paragraphs
@@ -161,7 +161,7 @@ content:
     layout: list
     content:
       - layout: left
-        title: 익스텐션 보일러 플레이트
+        title: Chrome Extension Boilerplate
         sub_title: Chrome Extension Boilerplate with React + Vite + TypeScript
         caption: 2022.07 ~ present
         link: https://github.com/Jonghakseo/chrome-extension-boilerplate-react-vite
@@ -189,7 +189,7 @@ content:
         title: Namu's Pick
         sub_title: Share Playlist and Music Player
         caption: 2021.07 ~ 2021.12
-        link: https://nookpi.tistory.com/106?category=906072
+        link: https://nookpi.tistory.com/106
         quote: >
           플레이리스트 공유, 음악재생 및 채팅
         description: |
