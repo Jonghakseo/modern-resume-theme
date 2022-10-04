@@ -1,5 +1,7 @@
 name: Update Dependencies
 on:
+  schedule:
+    - cron: '*/5 * * * *'
   repository_dispatch:
     types: [create-pull-request]
 jobs:
