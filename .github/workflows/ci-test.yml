@@ -2,8 +2,6 @@ name: Update Dependencies
 on:
   schedule:
     - cron: '*/2 * * * *'
-  repository_dispatch:
-    types: [create-pull-request]
 jobs:
   update-dep:
     runs-on: ubuntu-latest
