@@ -76,6 +76,7 @@ content:
           - 어학당 서비스 개발
             - 유저가 어학당 신청 진행 내역을 관리하는 기능 구현
             - 제출서류 업로드, 결제 등 어학당 신청 프로세스 구현
+          - 2022 상반기 리뷰 Hyper 인센티브 대상자 선정 (사내 상위 10%)
       - layout: left
         title: SK 렌터카 Direct
         link: https://www.skdirect.co.kr/nc
