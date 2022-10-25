@@ -72,10 +72,9 @@ content:
         quote: >
           월 방문자 170만명, 7개국 유저에게 예약, 직구, 어학당 등의 다양한 서비스
         description: | # this will include new lines to allow paragraphs
-          - 어학당 도메인 담당
-          - 어학당 서비스 개발
-            - 유저가 어학당 신청 진행 내역을 관리하는 기능 구현
-            - 제출서류 업로드, 결제 등 어학당 신청 프로세스 구현
+          - 어학당 도메인 개발 및 담당
+            - 유저 페이지 어학당 신청 진행상태별 페이지
+            - 제출서류 업로드, 결제 등 어학당 신청 프로세스
           - 2022 상반기 리뷰 Hyper 인센티브 대상자 선정 (사내 상위 10%)
       - layout: left
         title: SK 렌터카 Direct
@@ -85,8 +84,8 @@ content:
           최대 일 거래액 200억 이상의 비대면 렌터카 견적 비교 및 계약 서비스
         description: | # this will include new lines to allow paragraphs
           - B2C 서비스 전체 개발
-            - 차량별 견적 비교 및 결제 프로세스 구현
-            - 개인/법인/개인사업자별 계약 프로세스 구현
+            - 차량별 견적 비교 및 결제 프로세스
+            - 개인/법인/개인사업자별 계약 프로세스
       - layout: left
         title: 쓱싹 2.0
         link: https://sgsg.slogup.com/
