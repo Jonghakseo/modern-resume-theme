@@ -99,8 +99,6 @@ content:
         quote: >
           월 방문자 170만명, 7개국 유저에게 예약, 직구, 어학당, 숙소 등의 다양한 서비스
         description: | # this will include new lines to allow paragraphs
-          **어드민 유지보수**
-          
           **어학당 도메인 개발 및 유지보수**
           - 유저의 어학당 신청 전반에 필요한 전반적인 프론트 기능 구현
           - 컴포넌트 및 핵심 비즈니스 로직에 대한 테스트 코드 작성
@@ -119,6 +117,9 @@ content:
           - 공통 컴포넌트 개발 및 유지보수
           - AST 파싱을 통한 사내 eslint-plugin 패키지 구현 (@creatrip/eslint-plugin)
           - Github custom actions 를 통한 업무 자동화
+          
+          **어드민 유지보수**
+          
 
       - layout: left
         title: SK 렌터카 Direct
@@ -127,11 +128,13 @@ content:
         quote: >
           최대 일 거래액 200억 이상의 비대면 렌터카 견적 비교 및 계약 서비스
         description: | # this will include new lines to allow paragraphs
-          - 유저페이지 전반의 기능 구현
-            - 차량별 견적 비교 및 결제 프로세스
-            - 개인/법인/개인사업자별 계약 프로세스
-          - 다양한 SSR 이슈 트래킹 및 해결 
-          - GT metrix에 기반한 웹 최적화 (네트워크 페이로드 감소, 메인 쓰레드 태스크 감소 등)
+          **유저페이지 전반의 기능 구현**
+          - 차량별 견적 비교 및 결제 프로세스
+          - 개인/법인/개인사업자별 계약 프로세스
+          
+          **다양한 SSR 이슈 트래킹 및 해결** 
+          
+          **GT metrix에 기반한 웹 최적화 (네트워크 페이로드 감소, 메인 쓰레드 태스크 감소 등)**
 
       - layout: left
         title: 쓱싹 2.0
@@ -141,11 +144,14 @@ content:
         quote: >
           총 거래금액 200억 이상의 비대면 가전 설치 및 시공 예약 서비스
         description: | # this will include new lines to allow paragraphs
+          **유저페이지 전반의 기능 구현**
+          - 메인 랜딩 페이지 및 카테고리별 랜딩 페이지
+          - 로그인 및 마이페이지
+          
+          **사내 생산성 증진을 위한 자발적 태스크**
           - 사내 notion 크롤링을 통한 메타태그 관리 스크립트 추가
           - 프로젝트 내 Asset 관리를 위한 사내 라이브러리 개발 (@slogup/asset-manager)
           - 상담에 필요한 녹취록 작성 프로그램 제작 (Electron, Google STT)
-          - 메인 랜딩 페이지 및 카테고리별 랜딩 페이지
-          - 로그인 및 마이페이지
 
   - title: Ability
     layout: list
@@ -153,13 +159,6 @@ content:
       - layout: left
         title: 웹 애플리케이션 설계
         sub_title: React
-        additional_links:
-          - title: 1년간 React 테스트를 작성하며 겪은 이슈 10가지
-            url: https://nookpi.tistory.com/161
-          - title: 반응형UI에 대처하는 테스트의 자세
-            url: https://nookpi.tistory.com/139
-          - title: 레이아웃 훅 수정이 결제버튼 테스트에 영향을 미치는 이유
-            url: https://nookpi.tistory.com/150
         description: | # this will include new lines to allow paragraphs
           - 역할과 책임에 근거한 컴포넌트 설계로 재사용성과 확장성 추구
           - IoC 패턴을 사용한 컴포넌트 의존성 주입에 대한 이해
@@ -179,6 +178,9 @@ content:
           - 세부 구현에 의존하지 않는 유저 관점의 유지보수 가능한 테스트 코드 작성
           - 테스트 가능한 컴포넌트 작성
           - 테스트 환경과 도구에 대한 이해를 바탕으로 한 테스트 환경의 다양한 이슈 해결 경험 보유
+            - 1년간 React 테스트를 작성하며 겪은 이슈 10가지 (https://nookpi.tistory.com/161)
+            - 반응형UI에 대처하는 테스트의 자세 (https://nookpi.tistory.com/139)
+            - 레이아웃 훅 수정이 결제버튼 테스트에 영향을 미치는 이유 (https://nookpi.tistory.com/150)
 
   - title: Hobby
     layout: list
@@ -199,11 +201,10 @@ content:
         caption: 2022.07
         link: https://github.com/Jonghakseo/chrome-extension-boilerplate-react-vite
         link_text: chrome-extension-boilerplate-react-vite
-        description: | 
+        description: |
+          크롬 익스텐션을 편하게 만들기 위한 보일러 플레이트로, 크롬 익스텐션을 처음 개발하는 사람들이 쉽게 사용할 수 있도록 하는 데 초점을 맞춤
+          
           - Star 700 이상
-          - 크롬 익스텐션을 편하게 만들기 위한 보일러 플레이트
-          - 추상화 단계를 높이지 않는 보일러 플레이트를 지향
-          - 크롬 익스텐션을 처음 개발하는 사람들이 쉽게 사용할 수 있도록 초점을 둠
           - Vite(with Rollup), React18, Typescript, Jest, RTL, Sass, Tailwind 등의 기술 스택 적용
           - HRR(Hot Rebuild & Refresh/Reload) 자체 구현
 
@@ -213,12 +214,12 @@ content:
         caption: 2022. 01
         link: https://nookpi.tistory.com/130
         description: | 
-          - 잘 사용하던 Typora가 유료화 되면서 웹 기반으로 가볍게 사용하기 위해 만든 마크다운 에디터
+          잘 사용하던 Typora가 유료화 되면서 웹 기반으로 가볍게 사용하기 위해 만든 마크다운 에디터
+          - Toast UI editor 커스텀해서 사용
             - 다크모드
             - 작성 글 Gist 업로드
             - 이미지, 동영상 업로드
-          - Toast UI editor 커스텀해서 사용
-          - amplify로 배포
+          - 배포에 amplify 사용
 
 #      - layout: left
 #        title: Namu's Pick
