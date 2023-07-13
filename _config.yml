@@ -94,7 +94,7 @@ content:
     content:
       - layout: left
         title: Creatrip
-#        sub_title: front engineer
+        sub_title: TypeScript, NextJS, Apollo Client, styled-components, Storybook, Jest, rtl, Github Actions
         link: https://www.creatrip.com
         quote: >
           월 방문자 170만명, 7개국 유저에게 예약, 직구, 어학당, 숙소 등의 다양한 서비스
@@ -115,10 +115,11 @@ content:
             - 유튜브 자막 번역을 위한 사내 프로덕트 구현
             - 공통 컴포넌트 개발 및 유지보수
             - AST 파싱을 통한 사내 eslint-plugin 패키지 구현 (@creatrip/eslint-plugin)
+            - Github custom actions 를 통한 업무 자동화
 
       - layout: left
         title: SK 렌터카 Direct
-#        sub_title: front engineer
+        sub_title: TypeScript, NextJS, SWR, styled-components
         link: https://www.skdirect.co.kr/
         quote: >
           최대 일 거래액 200억 이상의 비대면 렌터카 견적 비교 및 계약 서비스
@@ -133,12 +134,13 @@ content:
         title: 쓱싹 2.0
         link: https://sgsg.slogup.com/
         link_text: sgsg web
+        sub_title: TypeScript, Create React App, styled-components
         quote: >
           총 거래금액 200억 이상의 비대면 가전 설치 및 시공 예약 서비스
         description: | # this will include new lines to allow paragraphs
           - 사내 notion 크롤링을 통한 메타태그 관리 스크립트 추가
           - 프로젝트 내 Asset 관리를 위한 사내 라이브러리 개발 (@slogup/asset-manager)
-          - 상담에 필요한 녹취록 작성 프로그램 제작 (Electron + Google STT)
+          - 상담에 필요한 녹취록 작성 프로그램 제작 (Electron, Google STT)
           - 메인 랜딩 페이지 및 카테고리별 랜딩 페이지
           - 로그인 및 마이페이지
 
@@ -171,15 +173,17 @@ content:
         sub_title: Drag GPT - Easy start AI with Drag!
         caption: 2023.02
         link: https://chrome.google.com/webstore/detail/draggpt-easy-start-with-d/akgdgnhlglhelinkmnmiakgccdkghjbh
+        link_text: chrome webstore
         description: |
           - 웹에서 one-shot prompt 요청을 쉽게 사용할 수 있도록 크롬 익스텐션 제작
-          - 사전에 작성한 프롬프트를 + 드래그를 통해 선택된 텍스트를 포함하여 요청
+          - 사전에 작성한 프롬프트를 드래그를 통해 선택된 텍스트를 포함하여 요청
 
       - layout: left
         title: Chrome Extension Boilerplate
         sub_title: Chrome Extension Boilerplate with React + Vite + TypeScript
         caption: 2022.07
         link: https://github.com/Jonghakseo/chrome-extension-boilerplate-react-vite
+        link_text: chrome-extension-boilerplate-react-vite
         quote: >
           Star 700 이상
         description: | 
