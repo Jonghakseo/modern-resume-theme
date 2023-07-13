@@ -117,9 +117,6 @@ content:
           - 공통 컴포넌트 개발 및 유지보수
           - AST 파싱을 통한 사내 eslint-plugin 패키지 구현 (@creatrip/eslint-plugin)
           - Github custom actions 를 통한 업무 자동화
-          
-          **어드민 유지보수**
-          
 
       - layout: left
         title: SK 렌터카 Direct
@@ -132,9 +129,8 @@ content:
           - 차량별 견적 비교 및 결제 프로세스
           - 개인/법인/개인사업자별 계약 프로세스
           
-          **다양한 SSR 이슈 트래킹 및 해결** 
-          
-          **GT metrix에 기반한 웹 최적화 (네트워크 페이로드 감소, 메인 쓰레드 태스크 감소 등)**
+          다양한 SSR 이슈 트래킹 및 해결
+          GT metrix에 기반한 웹 퍼포먼스 최적화
 
       - layout: left
         title: 쓱싹 2.0
@@ -149,7 +145,7 @@ content:
           - 로그인 및 마이페이지
           
           **사내 생산성 증진을 위한 자발적 태스크**
-          - 사내 notion 크롤링을 통한 메타태그 관리 스크립트 추가
+          - 사내 노션 table 조회 후 react helmet과 연동: seo 관리가 가능한 노션 페이지 추가
           - 프로젝트 내 Asset 관리를 위한 사내 라이브러리 개발 (@slogup/asset-manager)
           - 상담에 필요한 녹취록 작성 프로그램 제작 (Electron, Google STT)
 
