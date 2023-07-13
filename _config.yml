@@ -61,30 +61,74 @@ about_content: | # this will include new lines to allow paragraphs
   서비스 기업에서 비즈니스 임팩트를 내기 위해서는 능동적이고 적극적인 커뮤니케이션과 업무 수행이 필요하다고 생각하며, 그러한 동료들과 함께 일하는 환경을 선호합니다.
 
 content:
-  - title: Projects # Title for the section
+  - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Creatrip
-        link: https://www.creatrip.com/en
+        title: Creatrip, Inc.
+        link: https://www.creatrip.com/
         link_text: creatrip web
+        caption: 2021.12 ~
         quote: >
-          월 방문자 170만명, 7개국 유저에게 예약, 직구, 어학당 등의 다양한 서비스
+          Series B(누적 투자 150억 이상), 중소벤처기업부 선정 ‘아기유니콘 기업’ (2021)
         description: | # this will include new lines to allow paragraphs
-          - 어학당 도메인 개발 및 담당
-            - 유저 페이지 어학당 신청 진행상태별 페이지
-            - 제출서류 업로드, 결제 등 어학당 신청 프로세스
-          - 2022 상반기 리뷰 Hyper 인센티브 대상자 선정 (사내 상위 10%)
+          - 어학당 도메인 개발 및 유지보수
+          - 숙소 도메인 개발 및 유지보수
+          - 관리팀 업무 수행
+          - 2022 상반기/하반기 리뷰 Hyper 인센티브 대상자 선정 (사내 상위 10%)
+
+      - layout: left
+        title: Slogup, Inc.
+        link: https://www.slogup.com/
+        link_text: slogup web
+        caption: 2020.09 ~ 2021.12
+        quote: >
+          자체 서비스인 쓱싹 및 SK 렌터카 다이렉트 등 외주 서비스 개발
+        description: | # this will include new lines to allow paragraphs
+          - 쓱싹 2.0 리뉴얼 작업
+          - SK 렌터카 다이렉트 B2C 서비스 전체 개발
+
+
+  - title: Projects
+    layout: list
+    content:
+      - layout: left
+        title: Creatrip
+        sub_title: front engineer
+        link: https://www.creatrip.com
+        quote: >
+          월 방문자 170만명, 7개국 유저에게 예약, 직구, 어학당, 숙소 등의 다양한 서비스
+        description: | # this will include new lines to allow paragraphs
+          - 어드민 유지보수
+          - 어학당 도메인 개발 및 유지보수
+            - 유저의 어학당 신청 전반에 필요한 전반적인 프론트 기능 구현
+            - 컴포넌트 및 핵심 비즈니스 로직에 대한 테스트 코드 작성
+            - openai llm 기반 어학당 챗봇 POC 구현
+          - 숙소 도메인 개발 및 유지보수
+            - 숙소 검색 및 예약에 필요한 전반적인 프론트 기능 구현
+            - 클라이언트 클러스터링 기능을 갖춘 GoogleMap 기반 지도 컴포넌트 구현
+          - 프론트엔드 관리팀 업무 수행
+            - 유저페이지 성능 개선을 위한 WebVitals 모니터링 및 주요 인덱스 페이지 SSG 전환으로 LCP 70%개선
+            - A/B test를 위한 Growthbook 도입 및 전사 적용
+            - 런타임 에러 트래킹을 위한 Sentry 도입
+            - 디자인 시스템 구축을 위한 프론트엔드 - 디자인 TF 진행
+            - 유튜브 자막 번역을 위한 사내 프로덕트 구현
+            - 공통 컴포넌트 개발 및 유지보수
+            - AST 파싱을 통한 사내 eslint-plugin 패키지 구현 (@creatrip/eslint-plugin)
+
       - layout: left
         title: SK 렌터카 Direct
-        link: https://www.skdirect.co.kr/nc
-        link_text: sk direct web
+        sub_title: front engineer
+        link: https://www.skdirect.co.kr/
         quote: >
           최대 일 거래액 200억 이상의 비대면 렌터카 견적 비교 및 계약 서비스
         description: | # this will include new lines to allow paragraphs
-          - B2C 서비스 전체 개발
+          - 유저페이지 전반의 기능 구현
             - 차량별 견적 비교 및 결제 프로세스
             - 개인/법인/개인사업자별 계약 프로세스
+          - 다양한 SSR 이슈 트래킹 및 해결 
+          - GT metrix에 기반한 웹 최적화 (네트워크 페이로드 감소, 메인 쓰레드 태스크 감소 등)
+
       - layout: left
         title: 쓱싹 2.0
         link: https://sgsg.slogup.com/
@@ -92,120 +136,92 @@ content:
         quote: >
           총 거래금액 200억 이상의 비대면 가전 설치 및 시공 예약 서비스
         description: | # this will include new lines to allow paragraphs
-          - 메인 랜딩 페이지 및 카테고리별 랜딩 페이지
-          - 로그인 및 마이페이지
-
-  - title: Experience
-    layout: list
-    content:
-      - layout: top-middle
-        title: Creatrip, Inc.
-        sub_title: front engineer
-        caption: 2021.12 ~ present
-        link: https://www.creatrip.com
-        quote: >
-          Series B(누적 투자 150억 이상), 중소벤처기업부 선정 ‘아기유니콘 기업’ (2021)
-        description: | # this will include new lines to allow paragraphs
-          - 어학당 도메인 담당자로 서비스 개발 및 유지보수
-          - 공용 컴포넌트 작성 (자체 개발 Toast, Accordion, etc...)
-          - 접근성을 고려한 유저 관점의 컴포넌트 유닛 테스트 코드 작성 (Jest + RTL)
-          - E2E 테스트 환경 구축 (Playwright)
-          - 사내 커스텀 eslint-plugin 패키지 개발 (@creatrip/eslint-plugin)
-          - 타입 추론을 통한 URL 관리를 위해 Path 모듈 개발 
-          - 유틸 함수 작성
-          - 어드민 개발 및 유지보수
-      - layout: top-middle
-        title: Slogup, Inc.
-        sub_title: front engineer
-        caption: 2020.09 ~ 2021.12
-        link: https://www.slogup.com/
-        quote: >
-          자체 서비스인 쓱싹 및 SK 렌터카 다이렉트, 민팃 등 외주 서비스 개발
-        description: | # this will include new lines to allow paragraphs
-          - 사내 녹취록 작성 프로그램 제작 (Electron + Google STT)
           - 사내 notion 크롤링을 통한 메타태그 관리 스크립트 추가
           - 프로젝트 내 Asset 관리를 위한 사내 라이브러리 개발 (@slogup/asset-manager)
-          - 다양한 SSR 이슈 트래킹 및 해결 
-          - GT metrix에 기반한 웹 최적화 (네트워크 페이로드 감소, 메인 쓰레드 태스크 감소 등)
+          - 상담에 필요한 녹취록 작성 프로그램 제작 (Electron + Google STT)
+          - 메인 랜딩 페이지 및 카테고리별 랜딩 페이지
+          - 로그인 및 마이페이지
 
   - title: Ability
     layout: list
     content:
-      - layout: right
+      - layout: left
         title: 웹 애플리케이션 설계
         sub_title: React
         description: | # this will include new lines to allow paragraphs
-          - 역할과 책임에 근거한 컴포넌트 설계로 재사용성 극대화 지향
-          - 관심사에 따른 컴포넌트간 레이어 분리 및 의존성 주입에 대한 이해
-          - 비즈니스 로직과 UI 레이어를 분리하는 아키텍처 도입 (2022.08 ~ )
-      - layout: right
-        title: 테스트 코드
+          - 역할과 책임에 근거한 컴포넌트 설계로 재사용성과 확장성 추구
+          - IoC 패턴을 사용한 컴포넌트 의존성 주입에 대한 이해
+          - 비즈니스 로직과 UI 관심사 분리를 위한 선언적인 코드 지향
+      - layout: left
+        title: 테스트 코드 작성
         sub_title: Jest, react-testing-library
-        caption: 2021.12 ~ present
         description: | # this will include new lines to allow paragraphs
-          - 테스트 코드 도입 및 작성 (2021.12 ~ )
+          - 세부 구현에 의존하지 않는 유저 관점의 유지보수 가능한 테스트 코드 작성
           - 테스트 가능한 컴포넌트 작성
-          - 테스트 환경(jsdom)에 대한 이해를 바탕으로 한 테스트 환경의 다양한 이슈 해결 경험 보유
-      - layout: right
-        title: 반응형 웹
-        sub_title: 모바일, 태블릿, 데스크탑 대응
-        caption: 2020.09 ~ present
-        description: | # this will include new lines to allow paragraphs
-          - 쓱싹 2.0 반응형 웹 대응 (2020.09 ~ 2020.01)
-          - SK 렌터카 Direct 반응형 웹 대응 (2021.01 ~ 2021.08)
-          - Creatrip 반응형 웹 대응 (2021.01 ~ )
-          - flex 및 grid css를 통해 유지보수 가능한 레이아웃 구현
+          - 테스트 환경과 도구에 대한 이해를 바탕으로 한 테스트 환경의 다양한 이슈 해결 경험 보유
+            - 1년간 React 테스트를 작성하며 겪은 이슈 10가지 https://nookpi.tistory.com/161
+            - 반응형UI에 대처하는 테스트의 자세 https://nookpi.tistory.com/139
+            - 레이아웃 훅 수정이 결제버튼 테스트에 영향을 미치는 이유 https://nookpi.tistory.com/150
 
   - title: Hobby
     layout: list
     content:
       - layout: left
+        title: Drag GPT
+        sub_title: Drag GPT - Easy start AI with Drag!
+        caption: 2023.02
+        link: https://chrome.google.com/webstore/detail/draggpt-easy-start-with-d/akgdgnhlglhelinkmnmiakgccdkghjbh
+        description: |
+          - 웹에서 one-shot prompt 요청을 쉽게 사용할 수 있도록 크롬 익스텐션 제작
+          - 사전에 작성한 프롬프트를 + 드래그를 통해 선택된 텍스트를 포함하여 요청
+
+      - layout: left
         title: Chrome Extension Boilerplate
         sub_title: Chrome Extension Boilerplate with React + Vite + TypeScript
-        caption: 2022.07 ~ present
+        caption: 2022.07
         link: https://github.com/Jonghakseo/chrome-extension-boilerplate-react-vite
         quote: >
-          Star 300 이상
+          Star 700 이상
         description: | 
-          - 크롬 익스텐션을 만들다가 Vite를 한 번 사용해 보고 싶어서 만든 보일러 플레이트 
-          - Awesome Vite에 등록
-          - 익스텐션을 처음 개발하는 사람들이 어렵지 않게 느끼게끔 초점을 둠
-          - React18, Typescript, Jest, RTL, Vite, Sass 등의 기술 스택 적용
+          - 크롬 익스텐션을 편하게 만들기 위한 보일러 플레이트
+          - 추상화 단계를 높이지 않는 보일러 플레이트를 지향
+          - 크롬 익스텐션을 처음 개발하는 사람들이 쉽게 사용할 수 있도록 초점을 둠
+          - Vite(with Rollup), React18, Typescript, Jest, RTL, Sass, Tailwind 등의 기술 스택 적용
+          - HRR(Hot Rebuild & Refresh/Reload) 자체 구현
+
       - layout: left
         title: note-for.me
         sub_title: Custom MD editor
-        caption: 2022. 01 ~ 2022.01
+        caption: 2022. 01
         link: https://nookpi.tistory.com/130
-        quote: >
-          스스로 사용하려고 만든 MD editor
         description: | 
-          - 잘 사용하던 Typora가 유료화 되면서 웹 기반으로 가볍게 사용하기 위해 만든 에디터
-          - 평일 퇴근 후 4일간 작업 
+          - 잘 사용하던 Typora가 유료화 되면서 웹 기반으로 가볍게 사용하기 위해 만든 마크다운 에디터
+            - 다크모드
+            - 작성 글 Gist 업로드
+            - 이미지, 동영상 업로드
           - Toast UI editor 커스텀해서 사용
           - amplify로 배포
-          - 동시 탭 5개 지원, 로컬스토리지 동기화, 다크모드, Gist 저장, 이미지, 동영상 업로드
-      - layout: left
-        title: Namu's Pick
-        sub_title: Share Playlist and Music Player
-        caption: 2021.07 ~ 2021.12
-        link: https://nookpi.tistory.com/106
-        quote: >
-          플레이리스트 공유, 음악재생 및 채팅
-        description: |
-          - 여자친구의 추천곡을 보관하고 듣기 위해 시작한 프로젝트 
-          - 유튜브 주소를 입력하면 가수, 곡명을 파싱한 후 홈 서버에 음원을 저장 
-          - 서로의 재생목록을 공유하고 음악 재생 가능
-          - 크롬 익스텐션 버전, React Native App 버전 2가지 개발
+
+#      - layout: left
+#        title: Namu's Pick
+#        sub_title: Share Playlist and Music Player
+#        caption: 2021.07 ~ 2021.12
+#        link: https://nookpi.tistory.com/106
+#        quote: >
+#          플레이리스트 공유, 음악재생 및 채팅
+#        description: |
+#          - 여자친구의 추천곡을 보관하고 듣기 위해 제작
+#          - 유튜브 URL 입력 -> 가수, 곡명을 파싱 -> 홈 서버에 음원 저장
+#          - 재생목록 공유 및 하고 음악 재생 가능
+#          - 크롬 익스텐션 버전, React Native App 버전 2가지 개발
       - layout: left
         title: ZZaplin
         sub_title: Web Layout visualizer like a Zeplin
-        caption: 2020.11 ~ 2022.02
+        caption: 2020.11
         link: https://nookpi.tistory.com/29
-        quote: >
-          총 설치수 100. 스스로 꾸준히 사용중
         description: | 
           - Element간 간격을 재기 위한 익스텐션 
-          - Zeplin에서 영감을 받아 주말 10시간 동안 jQeury로 제작
+          - Zeplin에서 영감을 받아 주말에 동안 jQeury로 제작
 
 # Footer
 footer_show_references: true
