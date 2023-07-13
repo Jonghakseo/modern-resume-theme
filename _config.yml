@@ -153,13 +153,6 @@ content:
       - layout: left
         title: 웹 애플리케이션 설계
         sub_title: React
-        additional_links:
-          - title: 1년간 React 테스트를 작성하며 겪은 이슈 10가지
-            url: https://nookpi.tistory.com/161
-          - title: 반응형UI에 대처하는 테스트의 자세
-            url: https://nookpi.tistory.com/139
-          - title: 레이아웃 훅 수정이 결제버튼 테스트에 영향을 미치는 이유
-            url: https://nookpi.tistory.com/150
         description: | # this will include new lines to allow paragraphs
           - 역할과 책임에 근거한 컴포넌트 설계로 재사용성과 확장성 추구
           - IoC 패턴을 사용한 컴포넌트 의존성 주입에 대한 이해
@@ -179,6 +172,9 @@ content:
           - 세부 구현에 의존하지 않는 유저 관점의 유지보수 가능한 테스트 코드 작성
           - 테스트 가능한 컴포넌트 작성
           - 테스트 환경과 도구에 대한 이해를 바탕으로 한 테스트 환경의 다양한 이슈 해결 경험 보유
+            - 1년간 React 테스트를 작성하며 겪은 이슈 10가지 (https://nookpi.tistory.com/161)
+            - 반응형UI에 대처하는 테스트의 자세 (https://nookpi.tistory.com/139)
+            - 레이아웃 훅 수정이 결제버튼 테스트에 영향을 미치는 이유 (https://nookpi.tistory.com/150)
 
   - title: Hobby
     layout: list
