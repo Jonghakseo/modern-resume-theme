@@ -70,7 +70,7 @@ content:
         link_text: creatrip web
         caption: 2021.12 ~
         quote: >
-          Series B(누적 투자 150억 이상), 중소벤처기업부 선정 ‘아기유니콘 기업’ (2021)
+          다국어 서비스인 Creatrip Web 유저페이지 개발 및 유지보수
         description: | # this will include new lines to allow paragraphs
           - 어학당 도메인 개발 및 유지보수
           - 숙소 도메인 개발 및 유지보수
@@ -97,7 +97,7 @@ content:
         sub_title: TypeScript, NextJS, Apollo Client, styled-components, Storybook, Jest, rtl, Github Actions
         link: https://www.creatrip.com
         quote: >
-          월 방문자 170만명, 7개국 유저에게 예약, 직구, 어학당, 숙소 등의 다양한 서비스
+          MAU 170만, 7개국 유저에게 예약, 직구, 어학당, 숙소 서비스
         description: | # this will include new lines to allow paragraphs
           **어학당 도메인 개발 및 유지보수**
           - 유저의 어학당 신청 전반에 필요한 전반적인 프론트 기능 구현
