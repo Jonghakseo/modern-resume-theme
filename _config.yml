@@ -241,6 +241,15 @@ content:
         description: | 
           Element간 간격을 재기 위한 익스텐션으로 Zeplin에서 영감을 받아 간단하게 jQeury로 제작
 
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: 경희대학교 경영학
+        caption: 2010 ~
+        description: |
+          - 학사경고 누적으로 인한 제적(2021)
+
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
