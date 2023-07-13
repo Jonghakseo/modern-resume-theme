@@ -99,23 +99,23 @@ content:
         quote: >
           월 방문자 170만명, 7개국 유저에게 예약, 직구, 어학당, 숙소 등의 다양한 서비스
         description: | # this will include new lines to allow paragraphs
-          - 어드민 유지보수
-          - 어학당 도메인 개발 및 유지보수
-            - 유저의 어학당 신청 전반에 필요한 전반적인 프론트 기능 구현
-            - 컴포넌트 및 핵심 비즈니스 로직에 대한 테스트 코드 작성
-            - openai llm 기반 어학당 챗봇 POC 구현
-          - 숙소 도메인 개발 및 유지보수
-            - 숙소 검색 및 예약에 필요한 전반적인 프론트 기능 구현
-            - 클라이언트 클러스터링 기능을 갖춘 GoogleMap 기반 지도 컴포넌트 구현
-          - 프론트엔드 관리팀 업무 수행
-            - 유저페이지 성능 개선을 위한 WebVitals 모니터링 및 주요 인덱스 페이지 SSG 전환으로 LCP 70%개선
-            - A/B test를 위한 Growthbook 도입 및 전사 적용
-            - 런타임 에러 트래킹을 위한 Sentry 도입
-            - 디자인 시스템 구축을 위한 프론트엔드 - 디자인 TF 진행
-            - 유튜브 자막 번역을 위한 사내 프로덕트 구현
-            - 공통 컴포넌트 개발 및 유지보수
-            - AST 파싱을 통한 사내 eslint-plugin 패키지 구현 (@creatrip/eslint-plugin)
-            - Github custom actions 를 통한 업무 자동화
+          *어드민 유지보수*
+          *어학당 도메인 개발 및 유지보수*
+          - 유저의 어학당 신청 전반에 필요한 전반적인 프론트 기능 구현
+          - 컴포넌트 및 핵심 비즈니스 로직에 대한 테스트 코드 작성
+          - openai llm 기반 어학당 챗봇 POC 구현
+          *숙소 도메인 개발 및 유지보수*
+          - 숙소 검색 및 예약에 필요한 전반적인 프론트 기능 구현
+          - 클라이언트 클러스터링 기능을 갖춘 GoogleMap 기반 지도 컴포넌트 구현
+          *프론트엔드 관리팀 업무 수행*
+          - 유저페이지 성능 개선을 위한 WebVitals 모니터링 및 주요 인덱스 페이지 SSG 전환으로 LCP 70%개선
+          - A/B test를 위한 Growthbook 도입 및 전사 적용
+          - 런타임 에러 트래킹을 위한 Sentry 도입
+          - 디자인 시스템 구축을 위한 프론트엔드 - 디자인 TF 진행
+          - 유튜브 자막 번역을 위한 사내 프로덕트 구현
+          - 공통 컴포넌트 개발 및 유지보수
+          - AST 파싱을 통한 사내 eslint-plugin 패키지 구현 (@creatrip/eslint-plugin)
+          - Github custom actions 를 통한 업무 자동화
 
       - layout: left
         title: SK 렌터카 Direct
@@ -189,9 +189,8 @@ content:
         caption: 2022.07
         link: https://github.com/Jonghakseo/chrome-extension-boilerplate-react-vite
         link_text: chrome-extension-boilerplate-react-vite
-        quote: >
-          Star 700 이상
         description: | 
+          - Star 700 이상
           - 크롬 익스텐션을 편하게 만들기 위한 보일러 플레이트
           - 추상화 단계를 높이지 않는 보일러 플레이트를 지향
           - 크롬 익스텐션을 처음 개발하는 사람들이 쉽게 사용할 수 있도록 초점을 둠
