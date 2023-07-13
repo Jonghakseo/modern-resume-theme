@@ -100,7 +100,7 @@ content:
           MAU 170만, 7개국 유저에게 예약, 직구, 어학당, 숙소 서비스
         description: | # this will include new lines to allow paragraphs
           **어학당 도메인 개발 및 유지보수**
-          - 유저의 어학당 신청 전반에 필요한 전반적인 프론트 기능 구현
+          - 어학당 신청에 필요한 전반적인 프론트 기능 구현
           - 컴포넌트 및 핵심 비즈니스 로직에 대한 테스트 코드 작성
           - openai llm 기반 어학당 챗봇 POC 구현
           
@@ -125,7 +125,7 @@ content:
         quote: >
           최대 일 거래액 200억 이상의 비대면 렌터카 견적 비교 및 계약 서비스
         description: | # this will include new lines to allow paragraphs
-          **유저페이지 전반의 기능 구현**
+          **유저페이지 전체 구현**
           - 차량별 견적 비교 및 결제 프로세스
           - 개인/법인/개인사업자별 계약 프로세스
           
@@ -140,7 +140,7 @@ content:
         quote: >
           총 거래금액 200억 이상의 비대면 가전 설치 및 시공 예약 서비스
         description: | # this will include new lines to allow paragraphs
-          **유저페이지 전반의 기능 구현**
+          **유저페이지 일부 구현**
           - 메인 랜딩 페이지 및 카테고리별 랜딩 페이지
           - 로그인 및 마이페이지
           
