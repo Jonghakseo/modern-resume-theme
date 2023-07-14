@@ -116,7 +116,8 @@ content:
           - 유튜브 자막 번역을 위한 사내 프로덕트 구현
           - 공통 컴포넌트 개발 및 유지보수
           - AST 파싱을 통한 사내 eslint-plugin 패키지 구현 (@creatrip/eslint-plugin)
-          - Github custom actions 를 통한 업무 자동화
+          - Github custom actions 를 통해 팀내 반복 작업 자동화
+          - 그로스 팀의 GA(Google Analytics)Event 명세 ts 코드로 생성하는 generator 구현
 
       - layout: left
         title: SK 렌터카 Direct
@@ -184,7 +185,7 @@ content:
       - layout: left
         title: Drag GPT
         sub_title: Drag GPT - Easy start AI with Drag!
-        caption: 2023.02
+        caption: 2023.02 ~
         link: https://chrome.google.com/webstore/detail/draggpt-easy-start-with-d/akgdgnhlglhelinkmnmiakgccdkghjbh
         link_text: chrome webstore
         description: |
@@ -195,7 +196,7 @@ content:
       - layout: left
         title: Chrome Extension Boilerplate
         sub_title: Chrome Extension Boilerplate with React + Vite + TypeScript
-        caption: 2022.07
+        caption: 2022.07 ~
         link: https://github.com/Jonghakseo/chrome-extension-boilerplate-react-vite
         link_text: chrome-extension-boilerplate-react-vite
         description: |
@@ -203,9 +204,10 @@ content:
           
           크롬 익스텐션을 처음 개발하는 사람들이 쉽게 사용할 수 있도록 하는 데 초점을 맞춤
           
-          - Star 700 이상
+          - Star 700 ▲
           - Vite(with Rollup), React18, Typescript, Jest, RTL, Sass, Tailwind 등의 기술 스택 적용
           - HRR(Hot Rebuild & Refresh/Reload) 자체 구현
+          - 1년간 메인테이너로써 다양한 이슈 대응
 
       - layout: left
         title: note-for.me
@@ -213,7 +215,7 @@ content:
         caption: 2022. 01
         link: https://nookpi.tistory.com/130
         description: | 
-          잘 사용하던 Typora가 유료화 되면서 웹 기반으로 가볍게 사용하기 위해 만든 마크다운 에디터
+          웹 기반으로 가볍게 사용하기 위해 만든 마크다운 에디터
           
           - Toast UI editor 커스텀해서 사용
             - 다크모드
