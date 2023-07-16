@@ -52,9 +52,9 @@ linkedin_username: jong-hak-seo-9142ba200
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  React와 TypeScript를 즐겨 사용하는 3년차 웹 프론트엔드 개발자입니다. 
+  React와 TypeScript를 즐겨 사용하는 3년 차 웹 프론트엔드 개발자입니다. 
   
-  테스트 코드 작성이 개발자의 성장과 서비스의 견고함에 기여한다고 생각합니다. Jest, RTL 등을 사용해 유저 관점의 테스트 코드를 작성하는 것에 흥미가 있습니다.
+  테스트 코드 작성이 개발자의 성장과 서비스의 견고함에 기여한다고 생각합니다. Jest, RTL 등을 사용해 사용자 관점의 테스트 코드를 작성하는 것에 흥미가 있습니다.
 
   유연한 설계와 컴포넌트의 역할 분리를 통한 코어 로직의 재사용성에 관심이 많으며, 사고가 구현에 종속되지 않기 위해 언어, 프레임워크, 라이브러리에 대한 세부 지식을 추구합니다.
   
@@ -70,7 +70,7 @@ content:
         link_text: creatrip web
         caption: 2021.12 ~
         quote: >
-          다국어 서비스인 Creatrip Web 유저페이지 개발 및 유지보수
+          다국어 서비스인 Creatrip 개발 및 유지보수
         description: | # this will include new lines to allow paragraphs
           - 어학당 도메인 개발 및 유지보수
           - 숙소 도메인 개발 및 유지보수
@@ -102,22 +102,22 @@ content:
           **어학당 스쿼드**
           - 어학당 신청에 필요한 전반적인 프론트 기능 구현
           - 컴포넌트 및 핵심 비즈니스 로직에 대한 테스트 코드 작성
-          - openai llm 기반 어학당 챗봇 POC 구현
+          - Openai LLM 기반 어학당 챗봇 POC
           
           **숙소 스쿼드**
           - 숙소 검색 및 예약에 필요한 전반적인 프론트 기능 구현
-          - 클라이언트 클러스터링 기능을 갖춘 GoogleMap 기반 지도 컴포넌트 구현
+          - 클라이언트 클러스터링 기능을 갖춘 Google Map 기반 지도 컴포넌트 구현
           
           **프론트엔드 관리팀**
-          - 유저페이지 성능 개선을 위한 WebVitals 모니터링 및 주요 인덱스 페이지 SSG 전환으로 LCP 70%개선
+          - 성능 개선을 위한 Web Vitals 모니터링 및 주요 인덱스 페이지 SSG 전환으로 LCP 70% 개선
           - A/B test를 위한 Growthbook 도입 및 전사 적용
           - 런타임 에러 트래킹을 위한 Sentry 도입
           - 디자인 시스템 구축을 위한 프론트엔드 - 디자인 TF 진행
           - 유튜브 자막 번역을 위한 사내 프로덕트 구현
           - 공통 컴포넌트 개발 및 유지보수
           - AST 파싱을 통한 사내 eslint-plugin 패키지 구현 (@creatrip/eslint-plugin)
-          - Github custom actions 를 통해 팀내 반복 작업 자동화
-          - 그로스 팀의 GA(Google Analytics)Event 명세 ts 코드로 생성하는 generator 구현
+          - Github custom actions를 통해 팀 내 반복 작업 자동화
+          - 그로스 팀의 GA(Google Analytics) Event 명세 ts 코드로 생성하는 generator 구현
 
       - layout: left
         title: SK 렌터카 Direct
@@ -131,7 +131,7 @@ content:
           - 개인/법인/개인사업자별 계약 프로세스
           
           다양한 SSR 이슈 트래킹 및 해결
-          GT metrix에 기반한 웹 퍼포먼스 최적화
+          GTmetrix에 기반한 웹 퍼포먼스 최적화
 
       - layout: left
         title: 쓱싹 2.0
@@ -142,11 +142,11 @@ content:
           총 거래금액 200억 이상의 비대면 가전 설치 및 시공 예약 서비스
         description: | # this will include new lines to allow paragraphs
           **유저페이지 일부 구현**
-          - 메인 랜딩 페이지 및 카테고리별 랜딩 페이지
+          - 메인 페이지 및 카테고리별 랜딩 페이지
           - 로그인 및 마이페이지
           
           **사내 생산성 증진을 위한 자발적 태스크**
-          - 사내 노션 table 조회 후 react helmet과 연동: seo 관리가 가능한 노션 페이지 추가
+          - 사내 노션 table 조회 후 react helmet과 연동: SEO 관리가 가능한 노션 페이지 추가
           - 프로젝트 내 Asset 관리를 위한 사내 라이브러리 개발 (@slogup/asset-manager)
           - 상담에 필요한 녹취록 작성 프로그램 제작 (Electron, Google STT)
 
@@ -176,8 +176,8 @@ content:
           - 테스트 가능한 컴포넌트 작성
           - 테스트 환경과 도구에 대한 이해를 바탕으로 한 테스트 환경의 다양한 이슈 해결 경험 보유
             - 1년간 React 테스트를 작성하며 겪은 이슈 10가지 (https://nookpi.tistory.com/161)
-            - 반응형UI에 대처하는 테스트의 자세 (https://nookpi.tistory.com/139)
-            - 레이아웃 훅 수정이 결제버튼 테스트에 영향을 미치는 이유 (https://nookpi.tistory.com/150)
+            - 반응형 UI에 대처하는 테스트의 자세 (https://nookpi.tistory.com/139)
+            - 레이아웃 훅 수정이 결제 버튼 테스트에 영향을 미치는 이유 (https://nookpi.tistory.com/150)
 
   - title: Hobby
     layout: list
@@ -191,7 +191,7 @@ content:
         description: |
           웹에서 one-shot prompt 요청을 쉽게 사용할 수 있도록 크롬 익스텐션 제작
           
-          사전에 작성한 프롬프트를 드래그를 통해 선택된 텍스트를 포함하여 요청
+          사전에 작성한 프롬프트를 드래그로 선택된 텍스트를 포함하여 요청
 
       - layout: left
         title: Chrome Extension Boilerplate
