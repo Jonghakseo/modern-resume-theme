@@ -212,7 +212,7 @@ content:
         title: note-for.me
         sub_title: Custom MD editor
         caption: 2022. 01
-        link: https://nookpi.tistory.com/130
+        link: https://the-work.space/
         description: | 
           웹 기반으로 사용하기 위해 만든 마크다운 에디터
           
@@ -238,7 +238,7 @@ content:
         title: ZZaplin
         sub_title: Web Layout visualizer like a Zeplin
         caption: 2020.11
-        link: https://nookpi.tistory.com/29
+        link: https://chrome.google.com/webstore/detail/ryans-zzaplin/mbpmgelfipjfedefldiblikoenhpjfgb?hl=ko
         description: | 
           Element간 간격을 재기 위한 익스텐션으로 Zeplin에서 영감을 받아 jQuery로 제작
 
