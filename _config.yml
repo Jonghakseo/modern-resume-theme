@@ -121,7 +121,6 @@ content:
           - 런타임 에러 트래킹을 위한 Sentry 도입
             - 도입 후 2주간 unhandled SSR 에러 95% 절감
             - 구글 번역 익스텐션 이슈 발견 후 Node prototype function override 방식으로 대응
-          - Creatrip 유튜브 SRT 자막 번역 초안을 위한 사내 프로덕트 구현
           - 공통 컴포넌트 개발 및 유지보수
             - Text, Button, Toast, Tooltip, Calendar 등
             - Toast 구현시 애니메이션 reverse를 위한 코드 작성 중, raf 콜백 실행 위치로 인해 발생한 버그 해결
@@ -129,7 +128,10 @@ content:
             - component props naming, restrict domain model property 구현
           - Github custom actions를 통해 팀 내 반복 작업 자동화
             - 공통 변경사항에 대한 Slack 알림, 정적 파일 유효성 검증, Jira 티켓 바인딩, Storybook 배포 등
+          - 디자인 팀과의 협업을 위한 Storybook 구축
+            - 상수값 모킹 및 외부 노출을 막기 위해 webpack.resolve.alias + proxy 사용
           - 그로스 팀의 Google Analytics Event 명세를 ts 코드로 생성하는 generator 구현
+          - Creatrip 유튜브 SRT 자막 번역 초안을 위한 사내 프로덕트 구현
 
       - layout: left
         title: SK 렌터카 Direct
