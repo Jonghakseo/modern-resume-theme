@@ -101,24 +101,32 @@ content:
         description: | # this will include new lines to allow paragraphs
           **어학당 스쿼드**
           - 어학당 신청에 필요한 전반적인 프론트 기능 구현
+            - 학교마다 다른 신청서 작성 폼 렌더링을 위히 서버 동적 데이터를 바탕으로 폼 렌더링 및 검증, 임시저장을 위한 상태 저장 및 복원 기능 구현
           - 컴포넌트 및 핵심 비즈니스 로직에 대한 테스트 코드 작성
+            - 신청서 폼에 사용되는 컴포넌트들의 유닛 테스트 및 신청서 폼 통합 테스트 커버리지 100% 유지
           - OpenAI LLM 기반 어학당 챗봇 POC
+            - document split, vector embeddings, retriver에 langchain 사용
           
           **숙소 스쿼드**
           - 숙소 검색 및 예약에 필요한 전반적인 프론트 기능 구현
+            - 숙소 검색 리스트, 지도로 보기 화면 구현
+            - 숙소 상세 페이지 캘린더 구현
           - 클라이언트 클러스터링 기능을 갖춘 Google Map 기반 지도 컴포넌트 구현
+            - ZOOM LEVEL에 따른 클러스터링 범위 설정, 일정 범위 내 숙소에 대해 child node로 병합시키는 방식 사용
           
           **프론트엔드 관리팀**
           - 성능 개선을 위한 Web Vitals 모니터링 및 주요 인덱스 페이지 SSG 전환으로 LCP 70% 개선
+            - next 내장 reportWebVitals + ga 사용하여 측정
           - A/B test를 위한 Growthbook 도입 및 전사 적용
           - 런타임 에러 트래킹을 위한 Sentry 도입
             - 도입 후 2주간 unhandled SSR 에러 95% 절감
-            - 구글 번역 익스텐션 이슈 발견 후 대응
-          - 디자인 시스템 구축을 위한 프론트엔드 & 디자인 TF 진행
+            - 구글 번역 익스텐션 이슈 발견 후 Node prototype function override 방식으로 대응
           - Creatrip 유튜브 SRT 자막 번역 초안을 위한 사내 프로덕트 구현
           - 공통 컴포넌트 개발 및 유지보수
             - Text, Button, Toast, Tooltip, Calendar 등
+            - Toast 구현시 애니메이션 reverse를 위한 코드 작성 중, raf 콜백 실행 위치로 인해 발생한 버그 해결
           - AST 파싱을 통한 사내 eslint-plugin 패키지 구현 (@creatrip/eslint-plugin)
+            - component props naming, restrict domain model property 구현
           - Github custom actions를 통해 팀 내 반복 작업 자동화
             - 공통 변경사항에 대한 Slack 알림, 정적 파일 유효성 검증, Jira 티켓 바인딩, Storybook 배포 등
           - 그로스 팀의 Google Analytics Event 명세를 ts 코드로 생성하는 generator 구현
